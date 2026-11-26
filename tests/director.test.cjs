@@ -1,0 +1,7 @@
+const {test}=require('node:test'),assert=require('node:assert/strict');const {makePlan,markdown}=require('../director.js');
+const b={topic:'AI视频',audience:'创作者',goal:'获得连续镜头',obstacle:'光源跳变',action:'固定光源并重新生成',evidence:'前后真实录屏',duration:60,aspect:'9:16',mode:'linear'};
+test('all durations and modes: positive and contiguous',()=>{for(const duration of [15,30,60,90,120])for(const mode of ['linear','reveal','parallel']){let p=makePlan({...b,duration,mode});assert.equal(p.shots[0].start,0);assert.equal(p.shots.at(-1).end,duration);assert.equal(p.shots.reduce((n,s)=>n+s.duration,0),duration);p.shots.forEach((s,i)=>{assert.ok(s.duration>0);if(i)assert.equal(s.start,p.shots[i-1].end);});}});
+test('evidence not fabricated',()=>{let p=makePlan({...b,evidence:''});assert.match(p.evidenceStatus,/缺少证据/);assert.match(p.shots[3].visual,/不得声称/);});
+test('invalid inputs',()=>{for(const mod of [{topic:''},{goal:' '},{duration:0},{mode:'constructor'},{aspect:'other'},{action:'a'.repeat(241)}])assert.throws(()=>makePlan({...b,...mod}));});
+test('three different structures',()=>{const p=['linear','reveal','parallel'].map(mode=>makePlan({...b,mode}));assert.equal(new Set(p.map(x=>x.structure)).size,3);assert.equal(p[1].shots[0].line,'B');assert.equal(p[2].shots[1].line,'B');});
+test('exports full content',()=>{let p=makePlan(b);assert.match(markdown(p),/真实录屏/);assert.match(markdown(p),/55|51/);assert.match(markdown(p),/质检/);assert.equal(JSON.parse(JSON.stringify(p)).shots.length,5);});
