@@ -2,6 +2,8 @@
 
 > 先做导演，再用 AI。 / Direct first. Generate second.
 
+[在线导演工作台](https://aipmandy.github.io/NolanVideo/) · [12 章手册](docs/handbook.md) · [免费 PDF](docs/NolanVideo-Handbook.pdf) · [实战 Prompt](docs/production-playbook.md) · [导演 Skill](skills/nolan-video-director/SKILL.md) · [AI 酋长 Andy](https://metaver.vip/) · 微信 `AIPMAndy`
+
 独立的开源学习项目，面向短视频、AI 教程、个人 IP 与品牌故事。研究 Christopher Nolan 及其合作者的公开创作经验，迁移为可执行的叙事、视听和制作流程。不是官方项目，不复制电影资产，不承诺流量。
 
 ## 立即使用
@@ -14,7 +16,7 @@
 
 ## GitHub Pages
 
-新建公共仓库 `NolanVideo`，将项目文件推送到 `main` 分支根目录。Settings → Pages → Deploy from a branch → `main` / `(root)` → Save。待部署成功后从 Pages 设置获取实际访问地址。不预设线上已发布。
+在线访问：[https://aipmandy.github.io/NolanVideo/](https://aipmandy.github.io/NolanVideo/)。自行部署时将仓库推送至 `main` 分支根目录，在 Settings → Pages 选择 Deploy from a branch → `main` / `(root)` → Save。
 
 ## 测试
 
@@ -26,7 +28,7 @@
 
 ## 作者品牌与联系
 
-AI 酋长 Andy · [个人官网](https://metaver.vip/) · [知识库](https://kb.metaver.vip/)
+**AI 酋长 Andy · 星觉科技** — [在线导演工作台](https://aipmandy.github.io/NolanVideo/) · [个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/) · [知识库](https://kb.metaver.vip/) · 微信 `AIPMAndy` · [GitHub](https://github.com/AIPMAndy)
 
 ## Roadmap
 
