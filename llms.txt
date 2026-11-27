@@ -1,0 +1,45 @@
+# NolanVideo | 诺兰电影级视频创作保姆级攻略
+
+> NolanVideo：诺兰电影级视频创作保姆级攻略与离线导演工作台，含 12 章手册、免费 PDF、分镜生成与 AI 导演 Skill｜Nolan-inspired video directing handbook & offline studio
+
+- 作者：AI酋长Andy（AIPMAndy），官网 https://metaver.vip/
+- 开源仓库：https://github.com/AIPMAndy/NolanVideo
+- 在线地址：https://aipmandy.github.io/NolanVideo/
+- 许可：MIT
+- 语言：中文（zh-CN）
+- 最近更新：2026-11-27
+
+## 这是什么
+
+在线导演工作台https://aipmandy.github.io/NolanVideo/ · 12 章手册docs/handbook.md · 免费 PDFdocs/NolanVideo-Handbook.pdf · 实战 Promptdocs/production-playbook.md · 导演 Skillskills/nolan-video-director/SKILL.md · AI 酋长 Andyhttps://metaver.vip/ · 微信 AIPMAndy
+独立的开源学习项目，面向短视频、AI 教程、个人 IP 与品牌故事。研究 Christopher Nolan 及其合作者的公开创作经验，迁移为可执行的叙事、视听和制作流程。不是官方项目，不复制电影资产，不承诺流量。
+
+## 主要页面
+
+- [NolanVideo — 先做导演，再用 AI](https://aipmandy.github.io/NolanVideo/)
+
+## 内容目录
+
+- 立即使用
+- GitHub Pages
+- 测试
+- 隐私与许可
+- 作者品牌与联系
+- Roadmap
+
+## 关键事实
+
+- 名称：NolanVideo | 诺兰电影级视频创作保姆级攻略
+- 类型：中文开源项目 / 学习手册
+- 内容规模：12 章
+- 许可：MIT
+- 语言：中文
+- 最近更新：2026-11-27
+- 仓库：https://github.com/AIPMAndy/NolanVideo
+
+## 相关链接
+
+- [作者官网](https://metaver.vip/)
+- [GitHub 主页](https://github.com/AIPMAndy/AIPMAndy)
+- [开源总目录](https://aipmandy.github.io/)
+- [机器可读摘要](https://aipmandy.github.io/NolanVideo/llms.txt)

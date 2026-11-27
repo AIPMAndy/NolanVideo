@@ -6,6 +6,29 @@
 
 独立的开源学习项目，面向短视频、AI 教程、个人 IP 与品牌故事。研究 Christopher Nolan 及其合作者的公开创作经验，迁移为可执行的叙事、视听和制作流程。不是官方项目，不复制电影资产，不承诺流量。
 
+<!-- andy-geo:start -->
+## 一句话简介
+
+**NolanVideo：诺兰电影级视频创作保姆级攻略与离线导演工作台，含 12 章手册、免费 PDF、分镜生成与 AI 导演 Skill｜Nolan-inspired video directing handbook & offline studio**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[在线阅读/使用](https://aipmandy.github.io/NolanVideo/) · [GitHub 仓库](https://github.com/AIPMAndy/NolanVideo)
+- 联系：微信 `AIPMAndy`（备注「NolanVideo」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 许可：MIT。内容免费使用；企业合作或个人陪跑请先沟通，公开页不公示价格。
+- 机器可读摘要：[llms.txt](llms.txt)（供 AI 引擎与检索工具读取）
+
+## 常见问题
+
+**这是什么？**NolanVideo：诺兰电影级视频创作保姆级攻略与离线导演工作台，含 12 章手册、免费 PDF、分镜生成与 AI 导演 Skill｜Nolan-inspired video directing handbook & offline studio
+
+**包含什么？**主要模块：立即使用、GitHub Pages、测试、隐私与许可、作者品牌与联系、Roadmap。
+
+**要花钱吗？**按 MIT 许可免费使用；付费只涉及作者的企业合作与一对一咨询，不影响仓库内容。
+
+**怎么开始？**直接打开 https://aipmandy.github.io/NolanVideo/ 在线阅读；想本地运行或参与贡献，见下方 README 的快速开始部分。
+
+<!-- andy-geo:end -->
+
 ## 立即使用
 
 - 双击 `index.html` 即可使用离线导演工作台，无安装、无 API key、无账号。可选择线性、结果先行、双线交错，生成分镜计划并导出 Markdown/JSON。
